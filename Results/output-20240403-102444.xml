@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.7.5 on win32)" generated="20240403 10:24:44.721" rpa="true" schemaversion="2">
+<suite id="s1" name="Tasks" source="C:\Users\PC1\Desktop\my_task\Tasks.robot">
+<test id="s1-t1" name="My Task">
+<kw name="My First Keyword">
+<kw name="Log" library="BuiltIn">
+<arg>Hello World</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20240403 10:24:46.765" level="INFO">Hello World</msg>
+<status status="PASS" starttime="20240403 10:24:46.765" endtime="20240403 10:24:46.765"/>
+</kw>
+<status status="PASS" starttime="20240403 10:24:46.764" endtime="20240403 10:24:46.765"/>
+</kw>
+<status status="PASS" starttime="20240403 10:24:46.763" endtime="20240403 10:24:46.766"/>
+</test>
+<status status="PASS" starttime="20240403 10:24:44.723" endtime="20240403 10:24:46.767"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tasks">Tasks</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20240403 10:24:46.600" level="WARN">This is a deprecated import that will be removed in favor of Autosphere.Browser.Selenium</msg>
+</errors>
+</robot>
